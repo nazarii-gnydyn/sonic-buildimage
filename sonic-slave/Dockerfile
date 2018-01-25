@@ -126,6 +126,7 @@ RUN apt-get update && apt-get install -y \
         libdbus-1-dev \
         libjansson-dev \
 # For cavium sdk build
+        linux-headers-3.16.0-4-amd64 \
         libpcap-dev \
         dnsutils \
         libusb-dev \
